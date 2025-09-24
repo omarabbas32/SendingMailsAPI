@@ -1,14 +1,25 @@
-# Use .NET SDK to build
+# Stage 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY . .
+
+# Copy csproj and restore as distinct layers
+COPY *.csproj ./
 RUN dotnet restore
+
+# Copy everything else and build
+COPY . .
 RUN dotnet publish -c Release -o /app
 
-# Use .NET runtime for final image
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# Stage 2: Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=build /app .
-ENV ASPNETCORE_URLS=http://+:5000
-ENV DOTNET_RUNNING_IN_CONTAINER=true
+
+# Expose port (Railway will map it automatically)
+EXPOSE 8080
+
+# Tell .NET to listen on port 8080
+ENV ASPNETCORE_URLS=http://+:8080
+
+# Run the app
 ENTRYPOINT ["dotnet", "SendingMailsAPI.dll"]
