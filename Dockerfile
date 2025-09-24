@@ -1,25 +1,14 @@
-# 1️⃣ استخدم صورة SDK عشان تبني المشروع
+# Use .NET SDK to build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-
-# نسخ ملفات المشروع
-COPY . ./
-
-# استعادة الباكجات
+COPY . .
 RUN dotnet restore
-
-# بناء المشروع في وضع Release
 RUN dotnet publish -c Release -o /app
 
-# 2️⃣ استخدم صورة Runtime خفيفة لتشغيل المشروع
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+# Use .NET runtime for final image
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
-
-# نسخ الملفات من مرحلة البناء
-COPY --from=build /app ./
-
-# تحديد البورت اللي هيشتغل عليه
-EXPOSE 8080
-
-
+COPY --from=build /app .
+ENV ASPNETCORE_URLS=http://+:5000
+ENV DOTNET_RUNNING_IN_CONTAINER=true
 ENTRYPOINT ["dotnet", "SendingMailsAPI.dll"]
