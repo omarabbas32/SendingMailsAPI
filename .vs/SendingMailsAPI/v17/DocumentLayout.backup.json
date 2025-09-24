@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A130E3CB-9BB3-4B6A-B52E-4F7B6AEB5052}|SendingMailsAPI.csproj|c:\\users\\user\\source\\repos\\sendingmailsapi\\sendingmailsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A130E3CB-9BB3-4B6A-B52E-4F7B6AEB5052}|SendingMailsAPI.csproj|solutionrelative:sendingmailsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130E3CB-9BB3-4B6A-B52E-4F7B6AEB5052}|SendingMailsAPI.csproj|c:\\users\\user\\source\\repos\\sendingmailsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A130E3CB-9BB3-4B6A-B52E-4F7B6AEB5052}|SendingMailsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130E3CB-9BB3-4B6A-B52E-4F7B6AEB5052}|SendingMailsAPI.csproj|c:\\users\\user\\source\\repos\\sendingmailsapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A130E3CB-9BB3-4B6A-B52E-4F7B6AEB5052}|SendingMailsAPI.csproj|solutionrelative:controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E7C1976-87DF-4468-8479-B1291BD48CA6}|Services{3E7C1976-87DF-4468-8479-B1291BD48CA6}|C:\\Users\\user\\source\\repos\\SendingMailsAPI\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E7C1976-87DF-4468-8479-B1291BD48CA6}|Services{3E7C1976-87DF-4468-8479-B1291BD48CA6}|solutionrelative:EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47554549-5999-4E41-812B-FC09AFDBFD58}|DTOs{47554549-5999-4E41-812B-FC09AFDBFD58}|C:\\Users\\user\\source\\repos\\SendingMailsAPI\\EmailRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47554549-5999-4E41-812B-FC09AFDBFD58}|DTOs{47554549-5999-4E41-812B-FC09AFDBFD58}|solutionrelative:EmailRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E7C1976-87DF-4468-8479-B1291BD48CA6}|Services{3E7C1976-87DF-4468-8479-B1291BD48CA6}|C:\\Users\\user\\source\\repos\\SendingMailsAPI\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E7C1976-87DF-4468-8479-B1291BD48CA6}|Services{3E7C1976-87DF-4468-8479-B1291BD48CA6}|solutionrelative:IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "Controllers\\EmailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:12:56.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\EmailService.cs",
+              "RelativeDocumentMoniker": "EmailService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\EmailService.cs",
+              "RelativeToolTip": "EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:09:20.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:02:25.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SendingMailsAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\SendingMailsAPI.csproj",
+              "RelativeDocumentMoniker": "SendingMailsAPI.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\SendingMailsAPI.csproj",
+              "RelativeToolTip": "SendingMailsAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-21T16:00:10.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\EmailRequest.cs",
+              "RelativeDocumentMoniker": "EmailRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\EmailRequest.cs",
+              "RelativeToolTip": "EmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:12:19.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\IEmailService.cs",
+              "RelativeDocumentMoniker": "IEmailService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SendingMailsAPI\\IEmailService.cs",
+              "RelativeToolTip": "IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:11:19.004Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

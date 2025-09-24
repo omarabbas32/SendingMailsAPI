@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YWEn1asVh7d2col7LzBkWANQAfktndkySPVKJIzboVI=",
+  "Source": "SendingMailsAPI",
+  "BasePath": "_content/SendingMailsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

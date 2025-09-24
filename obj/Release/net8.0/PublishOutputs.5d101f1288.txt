@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\SendingMailsAPI\out\SendingMailsAPI.exe
+C:\Users\user\source\repos\SendingMailsAPI\out\appsettings.Development.json
+C:\Users\user\source\repos\SendingMailsAPI\out\appsettings.json
+C:\Users\user\source\repos\SendingMailsAPI\out\SendingMailsAPI.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\SendingMailsAPI.deps.json
+C:\Users\user\source\repos\SendingMailsAPI\out\SendingMailsAPI.runtimeconfig.json
+C:\Users\user\source\repos\SendingMailsAPI\out\SendingMailsAPI.pdb
+C:\Users\user\source\repos\SendingMailsAPI\out\BouncyCastle.Cryptography.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\MailKit.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\Microsoft.OpenApi.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\MimeKit.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\NETCore.MailKit.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\System.Security.Cryptography.Pkcs.dll
+C:\Users\user\source\repos\SendingMailsAPI\out\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
