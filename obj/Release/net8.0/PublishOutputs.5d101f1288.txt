@@ -1,6 +1,12 @@
 C:\Users\user\source\repos\SendingMailsAPI\out\SendingMailsAPI.exe
+C:\Users\user\source\repos\SendingMailsAPI\out\out\web.config
 C:\Users\user\source\repos\SendingMailsAPI\out\appsettings.Development.json
 C:\Users\user\source\repos\SendingMailsAPI\out\appsettings.json
+C:\Users\user\source\repos\SendingMailsAPI\out\out\appsettings.Development.json
+C:\Users\user\source\repos\SendingMailsAPI\out\out\appsettings.json
+C:\Users\user\source\repos\SendingMailsAPI\out\out\SendingMailsAPI.deps.json
+C:\Users\user\source\repos\SendingMailsAPI\out\out\SendingMailsAPI.runtimeconfig.json
+C:\Users\user\source\repos\SendingMailsAPI\out\out\SendingMailsAPI.staticwebassets.endpoints.json
 C:\Users\user\source\repos\SendingMailsAPI\out\SendingMailsAPI.dll
 C:\Users\user\source\repos\SendingMailsAPI\out\SendingMailsAPI.deps.json
 C:\Users\user\source\repos\SendingMailsAPI\out\SendingMailsAPI.runtimeconfig.json
