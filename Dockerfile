@@ -1,22 +1,25 @@
-# Stage 1: Build
+# 1️⃣ استخدم صورة SDK عشان تبني المشروع
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy csproj and restore
-COPY *.csproj ./
+# نسخ ملفات المشروع
+COPY . ./
+
+# استعادة الباكجات
 RUN dotnet restore
 
-# Copy everything else and build
-COPY . .
+# بناء المشروع في وضع Release
 RUN dotnet publish -c Release -o /app
 
-# Stage 2: Runtime
+# 2️⃣ استخدم صورة Runtime خفيفة لتشغيل المشروع
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=build /app .
 
-# Railway uses PORT env var, so we bind Kestrel to it
-ENV ASPNETCORE_URLS=http://+:8080
+# نسخ الملفات من مرحلة البناء
+COPY --from=build /app ./
+
+# تحديد البورت اللي هيشتغل عليه
 EXPOSE 8080
+
 
 ENTRYPOINT ["dotnet", "SendingMailsAPI.dll"]
