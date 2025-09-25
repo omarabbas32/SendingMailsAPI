@@ -28,8 +28,9 @@ namespace SendingMailsAPI.Controllers
 
             return Ok("Email sent successfully!");
         }
-         [HttpPost("test")]
-        public async Task<IActionResult>test()
+        
+        [HttpGet("test")]
+        public async Task<IActionResult> Test()
         {
           return Ok("API is working on Railway!");
         }
