@@ -16,7 +16,7 @@ namespace SendingMailsAPI.Controllers
             _emailService = emailService;
         }
 
-        [HttpPost("send")]
+        [HttpGet("send")]
         public async Task<IActionResult> SendEmail([FromBody] EmailRequest request)
         {
             if (string.IsNullOrEmpty(request.To) || string.IsNullOrEmpty(request.Subject) || string.IsNullOrEmpty(request.Body))
