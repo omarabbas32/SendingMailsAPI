@@ -30,7 +30,7 @@ namespace SendingMailsAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+           
 
             app.UseAuthorization();
             app.UseCors("AllowAll"); // enable

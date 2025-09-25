@@ -39,3 +39,17 @@ C:\Users\user\source\repos\SendingMailsAPI\obj\Debug\net8.0\refint\SendingMailsA
 C:\Users\user\source\repos\SendingMailsAPI\obj\Debug\net8.0\SendingMailsAPI.pdb
 C:\Users\user\source\repos\SendingMailsAPI\obj\Debug\net8.0\SendingMailsAPI.genruntimeconfig.cache
 C:\Users\user\source\repos\SendingMailsAPI\obj\Debug\net8.0\ref\SendingMailsAPI.dll
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\out\web.config
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\web.config
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\appsettings.Development.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\appsettings.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\out\appsettings.Development.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\out\appsettings.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\out\SendingMailsAPI.deps.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\out\SendingMailsAPI.runtimeconfig.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\out\SendingMailsAPI.staticwebassets.endpoints.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\SendingMailsAPI.deps.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\SendingMailsAPI.runtimeconfig.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\out\SendingMailsAPI.staticwebassets.endpoints.json
+C:\Users\user\source\repos\SendingMailsAPI\bin\Debug\net8.0\railway.json
+C:\Users\user\source\repos\SendingMailsAPI\obj\Debug\net8.0\SendingMailsAPI.sourcelink.json
