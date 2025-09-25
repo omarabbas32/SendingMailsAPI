@@ -36,6 +36,8 @@ namespace SendingMailsAPI
             app.UseCors("AllowAll"); // enable
 
             app.MapControllers();
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+app.Urls.Add($"http://*:{port}");
 
             app.Run();
         }
