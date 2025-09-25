@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using SendingMailsAPI.DTOs;
 using SendingMailsAPI.Services;
 
 namespace SendingMailsAPI.Controllers
@@ -16,23 +15,25 @@ namespace SendingMailsAPI.Controllers
             _emailService = emailService;
         }
 
+        // ✅ GET endpoint with query parameters
         [HttpGet("send")]
-        public async Task<IActionResult> SendEmail([FromQuery] EmailRequest request)
+        public async Task<IActionResult> SendEmail([FromQuery] string to, [FromQuery] string subject, [FromQuery] string body)
         {
-            if (string.IsNullOrEmpty(request.To) || string.IsNullOrEmpty(request.Subject) || string.IsNullOrEmpty(request.Body))
+            if (string.IsNullOrEmpty(to) || string.IsNullOrEmpty(subject) || string.IsNullOrEmpty(body))
             {
                 return BadRequest("Email, subject, and body are required.");
             }
 
-            await _emailService.SendEmailAsync(request.To, request.Subject, request.Body);
+            await _emailService.SendEmailAsync(to, subject, body);
 
-            return Ok("Email sent successfully!");
+            return Ok("Email sent successfully via GET!");
         }
-        
+
+        // ✅ Simple test endpoint
         [HttpGet("test")]
-        public async Task<IActionResult> Test()
+        public IActionResult Test()
         {
-          return Ok("API is working on Railway!");
+            return Ok("API is working on Railway!");
         }
     }
 }
